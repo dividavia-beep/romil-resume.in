@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Resume (Romil Aggarwal)</title>
+
+<style>
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    color: #333;
+}
+
+/* HEADER */
+header {
+    background-color: #1f2937;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* NAV */
+nav {
+    background-color: #111827;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #e5e7eb;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: 30px auto;
+}
+
+.section {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+}
+/* PREMIUM LOGO SLIDER */
+.logo-section {    overflow: hidden;
+
+    background: white;
+    padding: 20px 0;
+    border-radius: 8px;
+}
+
+.logo-track {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+}
+
+.logo-card {
+    min-width: 150px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-card img {
+    max-height: 50px;
+    display: block;
+}
+
+
+/* Animation */
+@keyframes scroll {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+}
+/* LOGOS */
+.logo-strip {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.logo-strip img {
+    height: 40px;
+    margin: 10px;
+    opacity: 0.7;
+}
+
+h2 {
+    border-left: 4px solid #2563eb;
+    padding-left: 10px;
+}
+
+/* SKILLS */
+.skills span {
+    display: inline-block;
+    background: #e0e7ff;
+    padding: 6px 10px;
+    margin: 5px;
+}
+
+/* PDF */
+iframe {
+    width: 100%;
+    height: 300px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #1f2937;
+    color: #cbd5e1;
+}
+</style>
+</head>
+
+<body>
+
+<div class="hero"></div>
+
+<header>
+<h1>Romil Aggarwal Resume</h1>
+<p>Content Writer | Senior Editor | Quality Analyst | 25+ Experience</p>
+</header>
+
+<nav>
+<a href="#about">About</a>
+<a href="#skills">Skills</a>
+<a href="#experience">Experience</a>
+<a href="#resumes">Resumes</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<div class="container">
+
+<!-- LOGOS -->
+<div class="section">
+<h2>Clients & Companies Worked With</h2>
+
+<div class="logo-section">
+  <div class="logo-track">
+
+    <div class="logo-card"><img src="images/altos.png"></div>
+    <div class="logo-card"><img src="images/dr-batra.png"></div>
+    <div class="logo-card"><img src="images/imagine.png"></div>
+    <div class="logo-card"><img src="images/md-synergy.png"></div>
+    <div class="logo-card"><img src="images/medical-tourism-corporation.png"></div>
+    <div class="logo-card"><img src="images/metropolitan.png"></div>
+    <div class="logo-card"><img src="images/sar-softtech.png"></div>
+    <div class="logo-card"><img src="images/cp-logo.png"></div>
+</div>
+
+</div>
+
+<!-- ABOUT -->
+<div class="section" id="about">
+<h2>About</h2>
+<p>
+Romil Aggarwal is a registered pharmacist and BCA graduate with over 25+ years of experience in content writing, editing, SEO writing, and medical documentation.
+He has worked with global clients across US, Canada, and Australia delivering high-quality and original content.
+
+We are a team of highly experienced content professionals led by Romil Aggarwal, bringing over 25 years of expertise in writing, editing, and quality analysis. Our core strength lies in delivering precise, original, and high-quality content tailored to diverse industries, especially in the medical domain. We specialize in medical writing, website content, eBooks, and professional documentation with a strong focus on accuracy and clarity.
+Our approach combines deep research, strong command over language, and strict adherence to grammar and formatting standards. We work closely with subject matter experts, including medical professionals, to ensure every piece of content is reliable and meaningful. With extensive experience in handling international clients, we understand global content requirements and maintain high-quality benchmarks.
+We also bring strong expertise in SEO content writing, seamlessly integrating keywords without compromising readability. Our team has proven capabilities in managing large projects, leading teams, and maintaining exceptional quality standards above 98% accuracy.
+Driven by a commitment to excellence, we aim to support businesses in their growth by providing content that is impactful, informative, and professionally crafted.
+</p>
+</div>
+
+<!-- SKILLS -->
+<div class="section" id="skills">
+<h2>Skills</h2>
+<div class="skills">
+<span>Content Writing</span>
+<span>Medical Writing</span>
+<span>Editing</span>
+<span>SEO Writing</span>
+<span>Quality Analysis</span>
+<span>Team Management</span>
+<span>Strong Language Proficiency</span>
+<span>Professional & Formal Writing</span>
+<span>Advanced Writing & Editing Skills</span>
+<span>Grammar & Attention to Detail</span>
+<span>High-Quality Content Focus</span>
+<span>Plagiarism-Free Content</span>
+<span>SEO Optimization</span>
+<span>Keyword Integration</span>
+<span>MS Office Expertise</span>
+<span>Internet Research Skills</span>
+<span>Typing Speed 70 WPM</span>
+</div>
+</div>
+
+<!-- EXPERIENCE -->
+<div class="section" id="experience">
+<h2>Experience</h2>
+
+
+    <title>Work Experience</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-family: Arial, sans-serif;
+        }
+        th, td {
+            border: 1px solid #333;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+
+<table>
+    <tr>
+        <th>S. No.</th>
+        <th>Company</th>
+        <th>Role</th>
+        <th>Duration</th>
+    </tr>
+
+    <tr>
+        <td>1</td>
+        <td>Altos Global, Noida</td>
+        <td>QME Content Editor & Quality Analyst</td>
+        <td>Nov 2023 – Present</td>
+    </tr>
+
+    <tr>
+        <td>2</td>
+        <td>Medropolitan</td>
+        <td>Senior Manager (Medical Writing, Team Management & Quality Analysis)</td>
+        <td>Oct 2015 – Dec 2019</td>
+    </tr>
+
+    <tr>
+        <td>3</td>
+        <td>Content Pioneers</td>
+        <td>Co-Founder & Managing Director</td>
+        <td>2012 – Present</td>
+    </tr>
+
+    <tr>
+        <td>4</td>
+        <td>Dr. Batra’s</td>
+        <td>Medical Ghost Writer</td>
+        <td>Aug 2019 – Present</td>
+    </tr>
+
+    <tr>
+        <td>5</td>
+        <td>iClinic</td>
+        <td>Medical Ghost Writer</td>
+        <td>-</td>
+    </tr>
+
+    <tr>
+        <td>6</td>
+        <td>ATM Magazine</td>
+        <td>Medical Writer & Editor</td>
+        <td>-</td>
+    </tr>
+
+    <tr>
+        <td>7</td>
+        <td>Antragni Digital Pvt. Ltd.</td>
+        <td>Freelance Content Writer</td>
+        <td>July 2012</td>
+    </tr>
+
+    <tr>
+        <td>8</td>
+        <td>Adaan / Full Spectrum</td>
+        <td>Freelance Content Writer</td>
+        <td>Mar 2012 – Present</td>
+    </tr>
+
+    <tr>
+        <td>9</td>
+        <td>Creative Spur</td>
+        <td>Freelance Content Writer</td>
+        <td>Mar 2012 – Present</td>
+    </tr>
+
+    <tr>
+        <td>10</td>
+        <td>Imagine Web Solutions</td>
+        <td>Content Writer</td>
+        <td>2011 – 2012</td>
+    </tr>
+
+    <tr>
+        <td>11</td>
+        <td>Freelance Projects</td>
+        <td>Content Writing – Travel, Finance & SEO</td>
+        <td>2012 – Present</td>
+    </tr>
+
+    <tr>
+        <td>12</td>
+        <td>MDSynergy Solutions LLC</td>
+        <td>Senior Manager</td>
+        <td>Oct 2007 – Oct 2011</td>
+    </tr>
+
+    <tr>
+        <td>13</td>
+        <td>Medical Tourism Corporation</td>
+        <td>Medical Writer</td>
+        <td>2010</td>
+    </tr>
+
+    <tr>
+        <td>14</td>
+        <td>Medical Support Systems, Gurgaon</td>
+        <td>Production Manager</td>
+        <td>2003 – 2007</td>
+    </tr>
+
+    <tr>
+        <td>15</td>
+        <td>Oasis MediScript Pvt. Ltd.</td>
+        <td>Lead QA</td>
+        <td>2002 – 2003</td>
+    </tr>
+
+    <tr>
+        <td>16</td>
+        <td>El-Docs Systems Pvt. Ltd.</td>
+        <td>Account Manager / Shift In-Charge</td>
+        <td>2001 – 2002</td>
+    </tr>
+
+    <tr>
+        <td>17</td>
+        <td>SAR Softech Pvt. Ltd.</td>
+        <td>Account Manager / Shift In-Charge</td>
+        <td>2000 – 2001</td>
+    </tr>
+
+    <tr>
+        <td>18</td>
+        <td>N.Y. Dox Services / Transcriptasia / Selectronics</td>
+        <td>MT / QA</td>
+        <td>1998 – 2001</td>
+    </tr>
+
+</table>
+</div>
+
+<!-- RESUMES -->
+<div class="section" id="resumes">
+<h2>Resumes</h2>
+
+<iframe src="pdfs/resume1.pdf"></iframe>
+<a href="pdfs/resume1.pdf">Resume1</a>
+
+<iframe src="pdfs/resume2.pdf"></iframe>
+<a href="pdfs/resume2.pdf">Resume2</a>
+
+</div>
+
+<!-- CONTACT -->
+<div class="section" id="contact">
+<h2>Contact</h2>
+<p>Address: Greater Noida , UP, India </p>
+<p>(M) 8447122567, 9910386968 </p>
+<p>E-mail:- romilaggarwalnew@gmail.com </p>
+</div>
+
+</div>
+
+<footer>
+© 2026 Romil Aggarwal
+</footer>
+
+</body>
+</html>
